@@ -1,9 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
-    <path d="M50.4 78.5a75.1 75.1 0 0 0-28.5 6.9l24.2-65.7c.7-2 1.9-3.2 3.4-3.2h29c1.5 0 2.7 1.2 3.4 3.2l24.2 65.7s-11.6-7-28.5-7L67 45.5c-.4-1.7-1.6-2.8-2.9-2.8-1.3 0-2.5 1.1-2.9 2.7L50.4 78.5Zm-1.1 28.2Zm-4.2-20.2c-2 6.6-.6 15.8 4.2 20.2a17.5 17.5 0 0 1 .2-.7 5.5 5.5 0 0 1 5.7-4.5c2.8.1 4.3 1.5 4.7 4.7.2 1.1.2 2.3.2 3.5v.4c0 2.7.7 5.2 2.2 7.4a13 13 0 0 0 5.7 4.9v-.3l-.2-.3c-1.8-5.6-.5-9.5 4.4-12.8l1.5-1a73 73 0 0 0 3.2-2.2 16 16 0 0 0 6.8-11.4c.3-2 .1-4-.6-6l-.8.6-1.6 1a37 37 0 0 1-22.4 2.7c-5-.7-9.7-2-13.2-6.2Z" />
-    <style>
-        path { fill: #000; }
-        @media (prefers-color-scheme: dark) {
-            path { fill: #FFF; }
-        }
-    </style>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20mm"
+   height="20mm"
+   viewBox="0 0 19.999999 20"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.6204616"
+     inkscape:cx="397.41762"
+     inkscape:cy="412.84533"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#c0bfbc;fill-opacity:0.88162;stroke:#000000;stroke-width:0.306001"
+       id="rect1"
+       width="49.799339"
+       height="35.920834"
+       x="-12.082462"
+       y="-7.6739964" />
+    <path
+       class="fil2"
+       d="m 19.119324,16.287975 v -1.005304 l -4.420299,-0.0027 c -1.443722,-0.0012 -2.143512,-2.960939 1.085633,-3.027336 v -1.009629 c -3.050662,-0.06933 -3.039506,-2.9832489 -0.06859,-3.0531699 l 0.01793,-1.013845 c -3.091493,-0.181526 -2.635623,-2.988747 -0.957589,-3.04527 l 4.342907,-0.00902 v -1.003834 l -4.388862,0.00576 c -2.332991,0.041952 -3.172728,3.197334 -1.12086,4.435885 l 0.159963,0.09645 -0.160764,0.09501 c -1.496829,0.883825 -1.517485,2.9999019 -0.02557,3.9016609 l 0.157934,0.09543 -0.157934,0.09549 c -1.977304,1.19441 -1.148241,4.44229 1.091878,4.443464 z"
+       id="path3"
+       style="clip-rule:evenodd;fill:#1574c2;fill-rule:evenodd;stroke-width:0.00533743;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+    <path
+       class="fil2"
+       d="m 0.75925841,3.1179738 v 1.0029565 l 4.91486529,0.013184 c 1.444095,0.0019 2.143352,2.960832 -1.0858464,3.027176 v 1.009682 c 3.0642184,0.0688 3.0290454,2.9785527 0.068693,3.0486327 l -0.017827,1.013792 c 3.1424654,0.179604 2.5787254,3.043509 0.9575884,3.045164 l -4.83747299,0.0045 v 1.004877 l 4.88369499,-0.0023 c 2.332457,-0.04163 3.171768,-3.198081 1.120807,-4.435671 l -0.159963,-0.0965 0.160763,-0.09495 c 1.494267,-0.882544 1.51551,-2.9969667 0.02535,-3.8972307 l -0.158095,-0.09543 0.158202,-0.09543 c 1.943892,-1.17322 1.221044,-4.3579042 -1.09396,-4.4437301 z"
+       id="path4"
+       style="clip-rule:evenodd;fill:#1574c2;fill-rule:evenodd;stroke-width:0.00533743;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" />
+    <polygon
+       class="fil3"
+       points="3379.26,8738.23 3356.59,6546.87 3167.91,6548.36 3190.58,8739.73 "
+       id="polygon4"
+       style="clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke:#000000;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       transform="matrix(0.00533743,0,0,0.00533743,-7.3650573,-30.968242)" />
+  </g>
 </svg>
