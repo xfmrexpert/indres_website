@@ -23,10 +23,13 @@ const metadata = {
 
   <Hero
     actions={[
-      { text: 'Learn more', href: '#features' },
+      { text: 'Learn more', href: '#services' },
     ]}
-    image={{ src: '~/assets/images/high-voltage-transformer-against-blue-260nw-1971671024.webp', alt: 'AstroWind Hero Image' }}
+    image={{ src: '~/assets/images/tfmr.jpg', alt: 'Picture of transformer' }}
   >
+      <Fragment slot="bg">
+        
+      </Fragment>
     <Fragment slot="title">
       Inductive Reasoning Engineering Services
     </Fragment>
@@ -92,19 +95,19 @@ const metadata = {
       {
         title: 'Diagnostics & Condition Assessment',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
+          'Words.',
         icon: 'tabler:bulb',
       },
       {
         title: 'Refurbishment, Replacement & Fleet Management',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
+          'Words.',
         icon: 'tabler:bulb',
       },
       {
         title: 'Asset Management Analytics',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
+          'Words.',
         icon: 'tabler:bulb',
       },
     ]}
@@ -114,10 +117,6 @@ const metadata = {
 
   <BlogLatestPosts
     title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
-                `}
   />
 
   <!-- CallToAction Widget *********** -->

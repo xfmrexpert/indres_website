@@ -1,12 +1,10 @@
 ---
-import { SITE } from 'astrowind:config';
 import Image from '~/components/common/Image.astro';
 import IRLogo from '../assets/images/logo.svg'
+import IRLogo_Dark from '../assets/images/logo_dark.svg'
 ---
 
-<Image src={IRLogo} width={IRLogo.width / 3} alt="Inductive Reasoning Logo" />
-<span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
->
-  {SITE?.name}
+<Image class="dark:hidden" src={IRLogo} alt="Inductive Reasoning Logo" />
+<Image class="invisible dark:visible" src={IRLogo_Dark} alt="Inductive Reasoning Logo" />
+<span class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
 </span>
