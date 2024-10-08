@@ -11,7 +11,7 @@ metadata:
   title:
     default: Inductive Reasoning Engineering Services
     template: '%s'
-  description: "\U0001F680 Homepage of Inductive Reasoning Engineering Services"
+  description: "Homepage of Inductive Reasoning Engineering Services"
   robots:
     index: true
     follow: true
