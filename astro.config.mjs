@@ -75,8 +75,7 @@ export default defineConfig({
   ],
 
   image: {
-    service: squooshImageService(),
-    domains: ['cdn.pixabay.com'],
+    entrypoint: 'astro/assets/services/sharp', config: {}
   },
 
   markdown: {

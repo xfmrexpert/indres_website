@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
@@ -21,10 +22,8 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
-    actions={[
-      { text: 'Learn more', href: '#services' },
-    ]}
+  <Hero2
+    actions={[{ text: 'Learn more', href: '#services' },]}
     image={{ src: '~/assets/images/tfmr.jpg', alt: 'Picture of transformer' }}
   >
       <Fragment slot="bg">
@@ -37,7 +36,7 @@ const metadata = {
     <Fragment slot="subtitle">
       Providing expert power transformer engineering services.
     </Fragment>
-  </Hero>
+  </Hero2>
 
   <!-- Note Widget ******************* -->
 
@@ -108,7 +107,11 @@ const metadata = {
       {
         title: 'Diagnostics & Condition Assessment',
         description:
-          'Words.',
+          'Monitoring the condition of operating power transformers and diagnosing incipient fault conditions is a uniquely challenging task.  Faults can \
+          and often do, evolve rapidly. The core and windings are not directly accessible, in most respects.  Therefore, data and direct observations are \
+          limited. Nonetheless, we do have some useful tools at our disposal.  We have extensive expertise in assessing the condition of power transformers \
+          utilizing readily available test data and developing data-driven decision making methodologies and processes.  We can assist in one-off assessments \
+          or provide exertise and guidance to implement fleet-wide assessment methodologies.',
         icon: 'tabler:bulb',
       },
       {
