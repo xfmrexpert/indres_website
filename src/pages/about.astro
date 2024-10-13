@@ -2,7 +2,7 @@
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
-import Hero from '~/components/widgets/Hero.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
@@ -17,11 +17,13 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
+  <Hero2
     tagline="About us"
     image={{
-      src: '~/assets/images/tfmr.jpg',
+      src: '~/assets/images/TCR.jpg',
       alt: 'Transformer Image',
+      width: '250',
+      height: '370'
     }}
   >
     <Fragment slot="title">
@@ -32,7 +34,7 @@ const metadata = {
       design, testing, operation, and maintenance. Extensive experience in utility asset analytics, working at the 
       intersection of data science and asset engineering. High voltage test experience. Capable of developing and 
       implementing engineering methodologies in a variety of software platforms. -->
-  </Hero>
+  </Hero2>
 
   
       
