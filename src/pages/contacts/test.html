@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+
+        .card {
+            background-color: #ffffff;
+            width: 350px;
+            max-width: 90%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card h1 {
+            font-size: 1.5em;
+            margin: 0;
+            color: #333;
+        }
+
+        .card p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .card .job-title {
+            color: #007bff;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        .card .contact-info {
+            margin-top: 20px;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: white;
+            background-color: #28a745;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 15px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .card a:hover {
+            background-color: #218838;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 600px) {
+            .card {
+                width: 100%;
+                padding: 15px;
+            }
+
+            .card h1 {
+                font-size: 1.3em;
+            }
+
+            .card p {
+                font-size: 0.9em;
+            }
+
+            .card a {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>John Doe</h1>
+    <p class="job-title">Transformer Engineer Consultant</p>
+    <p>Inductive Reasoning</p>
+
+    <div class="contact-info">
+        <p>Email: john.doe@example.com</p>
+        <p>Phone: (111) 555-1212</p>
+    </div>
+
+    <a href="/downloads/contact.vcf" download="John_Doe_Contact.vcf">Download vCard</a>
+</div>
+
+</body>
+</html>
